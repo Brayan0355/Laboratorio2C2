@@ -38,6 +38,6 @@ Porque toda la información guardada en variables de PHP desaparece de la memori
 *   **Nombre:** Se planteó de manera textual con tamaño definido. Su longitud limitada es la mejor opción previendo que nombres demasiado largos puedan romper las columnas del sitio web.
 *   **Descripción:** A diferencia del nombre, aquí se justificó aplicar el tipo texto "abierto" o gigante, el mejor para campos donde puedes escribir cosas aleatorias como especificaciones y muchísimos renglones extra sin preocuparte que se corte a la mitad.
 *   **Precio:** El justificante principal acá es usar un tipo de dato numérico que cuente con formato "decimal" exacto de dos dígitos. Esto es lo fundamental si manejas dinero para que los impuestos o céntimos no comiencen a generar promedios raros de error.
-*   **Creado en:** Se diseñó con un formato de tipo de "fecha automatizada en el servidor". Esto se eligió para no estar pidiendo a la gente que escriba qué día metieron cada registro, la base de datos mapea la fecha sola con su propia hora del reloj.
+*   **Creado en:** Se diseñó con un formato de tipo de "fecha automatizada en el servidor". Esto se eligió para no estar pidiendo a la gente que escriba qué día metieron cada registro, la base de datos mapea la fecha sola con su propia hora del reloj..
 
 

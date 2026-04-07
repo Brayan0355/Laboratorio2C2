@@ -1,3 +1,7 @@
+**Integrantes
+* Brayan Isaac Carranza Amaya
+* Brayan Adaly Campos Martínez
+
 
 **Usuario y contraseña a utilizar en el login:** 
 *   Usuario: admin

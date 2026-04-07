@@ -1,6 +1,6 @@
 <?php
 session_start();
-// Si no hay sesión válida, abortamos la inserción
+
 if (!isset($_SESSION['user_id'])) {
     header("Location: index.php");
     exit();
@@ -10,8 +10,7 @@ require_once 'config.php';
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     
-    // 1. Recibir y sanitizar los datos
-    // strip_tags elimina HTML, trim elimina espacios. Esto nos protege en cierta medida de inyección.
+   
     $nombre = trim(strip_tags($_POST['nombre'] ?? ''));
     $descripcion = trim(strip_tags($_POST['descripcion'] ?? ''));
     
